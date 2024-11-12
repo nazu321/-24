@@ -1,0 +1,143 @@
+.header{
+    background-image: url(../images/Изба.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.main{
+    min-height: 720px;
+    max-width: 1730px;
+    position: relative;
+    background-image: url(../images/Изба.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.main__name{
+    margin: 0px 171px 0px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    min-height: 44px;
+    z-index: 2;
+}
+.main__name-item {
+    text-transform: capitalize;
+}
+.overlay{
+    margin: 0px 172px 0px 162px;
+    position: absolute;
+    width: 1394px;
+    height: 720px;
+    background-color: #fff;
+    opacity: 20%;
+    z-index: 1;
+}
+.main__card{
+    margin: 22px 173px 0px 121px;
+    min-width: 1450px;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+}
+.main__card-list{
+    min-width: 1395px;
+    max-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 102px;
+    row-gap: 63px;
+    list-style-type: none;
+}
+.main__card-list-item{
+    max-width: 272px;
+    height: 280px;
+    background-color: white;
+    border-radius: 5%;
+}
+.main__card-list-image{
+    min-width: 272px;
+    height: 127px;
+}
+.main__card-list-link {
+    text-decoration: none;
+
+}
+.main__card-list-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 6px 15px 0px 12px;
+    color: black;
+    line-height: 127%;
+}
+.address__list {
+    padding: 20px;
+    max-width: 372px;
+    max-height: 175px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    z-index: 1;
+    position: absolute;
+    right: 200px;
+    top: 124px;
+}
+.address__list-li {
+    height: 60px;
+    width: 331px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 78px 227px;
+    grid-template-rows: 16px 16px;
+    row-gap: 18px;
+    column-gap: 8px;
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    background-color: #C28D5C;
+    z-index: 5;
+    position: relative;
+}
+.address__add{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #AD7A4B;
+    border-radius: 18%;
+    z-index: 6;
+    position: relative;
+}
+.address__nomer{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #AD7A4B;
+    border-radius: 18%;
+    z-index: 6;
+    position: relative;
+}
+.address__add-str{
+    grid-column: 2;
+    grid-row: 1;
+    color: #000;
+    text-decoration: none;
+    background-color: #AD7A4B;
+    border-radius: 18%;
+    z-index: 6;
+    position: relative;
+}
+.address__nomer-con{
+    grid-column: 2;
+    grid-row: 2;
+    color: #000;
+    text-decoration: none;
+    background-color: #AD7A4B;
+    border-radius: 18%;
+    z-index: 6;
+    position: relative;
+}

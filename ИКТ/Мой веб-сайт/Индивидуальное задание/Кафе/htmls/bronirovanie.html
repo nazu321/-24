@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/stylebro.css">
+    <title>Меню кафе русская изба</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="name"><a class="link" href="./gl.html">кафе<br>русская изба</a></h1>
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__list-item"><a class="header__list-link" href="./menu.html">меню</a></li>
+                <li class="header__list-item"><a class="header__list-link" href="./delivery.html">доставка</a></li>
+                <li class="header__list-item"><a class="header__list-link contact" href="#">контакты</a></li>
+                <li class="header__list-item"><a class="header__list-link" href="./bronirovanie.html">забронировать</a></li>
+            </ul>
+        </nav>
+        <div class="popup hide">
+            <div class="address__list">
+                <address class="address__list-li">
+                    <p class="address__add">Адрес</p>
+                    <p class="address__nomer">Номер тел.</p>
+                    <a class="address__add-str" href="#">ул. Василька, д. 69, г. Москва</a>
+                    <a class="address__nomer-con" href="tel:+7(967) 158-35-78">+7(967) 158-35-78</a>
+                </address>
+                <address class="address__list-li">
+                    <p class="address__add">Адрес</p>
+                    <p class="address__nomer">Номер тел.</p>
+                    <a class="address__add-str" href="#">ул. Серый, д. 1000-7, г. Москва</a>
+                    <a class="address__nomer-con" href="tel:+7(969) 228-69-69">+7(969) 228-69-69</a>
+                </address>
+            </div>         
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__management">
+            <div class="main__management-date">
+                <p class="main__management-date-text">Дата</p>
+                <input type="date" class="main__management-date-input">
+            </div>
+            <div class="main__management-time">
+                <p class="main__management-time-text">Время</p>
+                <input type="time" class="main__management-time-input">
+            </div>
+        </section>
+        <section class="main__plan">
+            <img class="main__plan-image first" src="../images/Улица Василька.png" alt="План 1">
+            <img class="main__plan-image second" src="../images/улица серого.png" alt="План 2">
+        </section>
+        <a class="main__button" href="#">оформить</a>
+    </main>
+    <footer class="footer">
+        <h1 class="name"><a class="link" href="./gl.html">кафе<br>русская изба</a></h1>
+        <nav class="footer__menu">
+            <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__list-link" href="../htmls/menu.html">меню</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="../htmls/delivery.html">доставка</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="../htmls/bronirovanie.html">бронирование</a></li>
+            </ul>
+        </nav>
+        <div class="footer__social">
+            <img class="footer__social-tg" src="../images/Телеграм.png" alt="Телеграм">
+            <img class="footer__social-vk" src="../images/ВК.png" alt="ВК">
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>

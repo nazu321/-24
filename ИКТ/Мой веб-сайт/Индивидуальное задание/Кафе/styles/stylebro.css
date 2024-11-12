@@ -1,0 +1,66 @@
+.main {
+    min-width: 1730px;
+    min-height: 640px;
+    background-image: url(../images/бронирование.jpg);
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+.main__management {
+    margin: 0px 175px 0px 175px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+}
+.main__management-date-text {
+    width: 300px;
+    height: 35px;
+    color: #FFDF6B;
+    font-size: 30px;
+    background-color: #49423D;
+}
+.main__management-date-input {
+    width: 300px;
+    height: 35px;
+    background-color: #D86800;
+}
+.main__management-time-text {
+    width: 300px;
+    height: 35px;
+    color: #FFDF6B;
+    font-size: 30px;
+    background-color: #49423D;
+}
+.main__management-time-input {
+    width: 300px;
+    height: 35px;
+    background-color: #D86800;
+}
+.main__plan {
+    margin: 50px 175px 0px 175px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+}
+.main__plan-image{
+    width: 632px;
+    height: 420px;
+}
+.main__button{
+    margin: 25px 175px;
+    max-height: 50px;
+    max-width: 200px;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Ruslan Display', sans-serif;
+    background-color: #000;
+    color: #FF6B17;
+    font-size: 30px;
+    text-decoration: none;
+}

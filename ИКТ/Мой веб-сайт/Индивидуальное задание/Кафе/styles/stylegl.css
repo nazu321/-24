@@ -1,0 +1,76 @@
+.header{
+    background-image: url(../images/Изба.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.main{
+    min-height: 720px;
+    max-width: 1730px;
+    position: relative;
+    background-image: url(../images/Изба.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.main__name{
+    margin: 0px 171px 0px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    min-height: 44px;
+    z-index: 2;
+}
+.main__name-item {
+    text-transform: capitalize;
+}
+.overlay{
+    margin: 0px 172px 0px 162px;
+    position: absolute;
+    width: 1394px;
+    height: 720px;
+    background-color: #fff;
+    opacity: 20%;
+    z-index: 1;
+}
+.main__card{
+    margin: 22px 173px 0px 121px;
+    min-width: 1450px;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+}
+.main__card-list{
+    min-width: 1395px;
+    max-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 102px;
+    row-gap: 63px;
+    list-style-type: none;
+}
+.main__card-list-item{
+    max-width: 272px;
+    height: 280px;
+    background-color: white;
+    border-radius: 5%;
+}
+.main__card-list-image{
+    min-width: 272px;
+    height: 127px;
+}
+.main__card-list-link {
+    text-decoration: none;
+
+}
+.main__card-list-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 6px 15px 0px 12px;
+    color: black;
+    line-height: 127%;
+}

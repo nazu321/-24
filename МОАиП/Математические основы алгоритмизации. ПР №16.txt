@@ -1,0 +1,48 @@
+#include<iostream>
+#include<cmath>
+#include<cstdlib>
+using namespace std;
+
+int main()
+{srand(time(0));
+    int mas1[3][3];
+    int mas2[3][3];
+    string s = " ";
+    cout<<endl<<"Вывод первого массива = "<<endl;
+    for(int i=0; i<=3; i++){
+        cout<<endl;
+        for(int j=0; j<=3; j++){
+            mas1[i][j] = -5 + rand()%15;
+            cout<<s<<mas1[i][j]<<s;
+        }
+    }
+    cout<<endl<<endl;
+    cout<<"Вывод второго массива ="<<endl;
+    for(int i=0; i<=3; i++){
+        cout<<endl;
+        for(int j=0; j<=3; j++){
+            mas2[i][j] = -5 + rand()%15;
+            cout<<s<<mas2[i][j]<<s;
+        }
+    }
+    cout<<endl<<endl<<"Вывод суммы каждого элемента первого и второго массива между собой = "<<endl;
+    for(int i=0; i<=3; i++){
+        cout<<endl;
+        for(int j=0; j<=3; j++){
+            mas2[i][j] += mas1[i][j];
+            cout<<s<<mas2[i][j]<<s;
+        }
+    }
+    cout<<endl;
+    cout<<endl<<"Преобразованный первый массив в массив где числа больше 10 = "<<endl;
+    for(int i=0; i<=3; i++){
+        cout<<endl;
+        for(int j=0; j<=3; j++){
+            if(mas1[i][j]<=10){
+                mas1[i][j] = 10 + rand()%15;
+            }
+            cout<<s<<mas1[i][j]<<s;
+        }
+    }
+    return 0;
+}

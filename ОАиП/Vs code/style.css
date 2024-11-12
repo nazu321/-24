@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculate {
+	background-color: black;
+	border-radius: 30px;
+	min-height: 750px;
+	min-width: 750px;
+	position: relative;
+}
+.monitor {
+	position: absolute;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	gap: 20px;
+	min-width: 700px;
+	min-height: 200px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 30px;	
+}
+.text {
+	margin: 0;
+	padding: 0px 25px;
+	color: greenyellow;
+	font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.output{
+	font-size: 60px;
+}
+.example {
+	font-size: 40px;
+}
+.buttons {
+	position: absolute;
+	margin: 0;
+	top: 225px;
+	padding: 25px;
+}
+.list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	row-gap: 10px;
+	justify-content:space-between;
+	min-width: 700px;
+	list-style-type: none;
+}
+.list-item {
+	border-radius: 100px;
+	width: 150px;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: green;
+}
+.big {
+	min-width: 335px;
+}
+.list-text {
+	margin: 0;
+	font-size: 60px;
+	color: white;
+}

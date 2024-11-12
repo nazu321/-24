@@ -1,0 +1,10 @@
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\bin\Debug\Мем-генератор.exe.config
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\bin\Debug\Мем-генератор.exe
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\bin\Debug\Мем-генератор.pdb
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\obj\Debug\Мем-генератор.csproj.AssemblyReference.cache
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\obj\Debug\Мем_генератор.Form1.resources
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\obj\Debug\Мем_генератор.Properties.Resources.resources
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\obj\Debug\Мем-генератор.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\obj\Debug\Мем-генератор.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\obj\Debug\Мем-генератор.exe
+C:\Users\Сергей\Desktop\ТК 24\ВП\Мем-генератор\obj\Debug\Мем-генератор.pdb

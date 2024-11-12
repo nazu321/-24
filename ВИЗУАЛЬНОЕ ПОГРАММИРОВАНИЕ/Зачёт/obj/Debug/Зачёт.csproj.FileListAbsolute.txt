@@ -1,0 +1,10 @@
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\bin\Debug\Зачёт.exe.config
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\bin\Debug\Зачёт.exe
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\bin\Debug\Зачёт.pdb
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\obj\Debug\Зачёт.csproj.AssemblyReference.cache
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\obj\Debug\Зачёт.Form1.resources
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\obj\Debug\Зачёт.Properties.Resources.resources
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\obj\Debug\Зачёт.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\obj\Debug\Зачёт.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\obj\Debug\Зачёт.exe
+C:\Users\Сергей\Desktop\ТК 24\ВП\Зачёт\obj\Debug\Зачёт.pdb

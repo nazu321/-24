@@ -1,0 +1,46 @@
+.body{
+    background-color: #FFCCCC;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    text-align: center;
+}
+.name-b{
+    font-size: 100px;
+}
+.name-i {
+    font-size: 60px;
+}
+.img{
+    width: 700px;
+    height: 350px;
+}
+.list {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.item{
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.tex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main {
+    font-size: 50px;
+    color: #02a23a;
+    text-align: center;
+}
+.lin{
+    font-size: 20px;
+}
+.led {
+    background-color: #0000FF;
+}

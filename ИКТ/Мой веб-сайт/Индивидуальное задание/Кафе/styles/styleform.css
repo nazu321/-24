@@ -1,0 +1,61 @@
+* {
+    margin: 0 auto;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.form{
+    display: grid;
+    justify-content: center;
+    background-image: url(../images/значок.svg);
+    background-size: cover;
+    position: relative;
+    max-width: 777px;
+    height: 777px;
+}
+.form__fon{
+    padding: 189px 164px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 100px;
+}
+.form__fon-text {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.form__fon-input {
+    margin: 0;
+    padding: 0;
+    height: 46px;
+    width: 446px;
+}
+.text1{grid-row: 1;}
+.text2{grid-row: 3;}
+.text3{grid-row: 5;}
+.form__fon-input{
+    border-radius: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.input1{grid-row: 2;}
+.input2{grid-row: 4;}
+.input3{grid-row: 6;}
+.form__fon-btn{
+    height: 96px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Ruslan Display', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+}
